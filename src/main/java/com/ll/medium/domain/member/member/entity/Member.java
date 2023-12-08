@@ -20,4 +20,7 @@ public class Member {
     private String password;
 
     private LocalDateTime createDate;
+
+//    @OneToMany(mappedBy = "member")
+//    private List<Post> posts;
 }
